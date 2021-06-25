@@ -8,7 +8,13 @@ public class FirstComponent : MonoBehaviour
     public bool reverse;
 
     public Vector3 rotationAxis;
+    public string myString;
 
+    public char[] myArray;
+
+    public List<int> MyList;
+
+    
     void Start() {
         Debug.Log("inside the start method");
     }
